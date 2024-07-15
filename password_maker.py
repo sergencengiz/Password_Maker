@@ -9,7 +9,6 @@ def generate_password(length=6):
     
     return password
 
-# Örnek kullanım
-password_length = 6  # Şifrenin uzunluğunu 6 olarak belirleyin
+password_length = 6  # Şifrenin uzunluğunu 6 olarak belirleyin / Set the password length to 6
 generated_password = generate_password(password_length)
 print("Oluşturulan Şifre:", generated_password)
